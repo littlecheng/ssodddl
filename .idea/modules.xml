@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/单点登录/sso-oa/sso-oa.iml" filepath="$PROJECT_DIR$/单点登录/sso-oa/sso-oa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/单点登录/sso-pro/sso-pro.iml" filepath="$PROJECT_DIR$/单点登录/sso-pro/sso-pro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/单点登录/sso-server/sso-server.iml" filepath="$PROJECT_DIR$/单点登录/sso-server/sso-server.iml" />
+    </modules>
+  </component>
+</project>

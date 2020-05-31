@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="sso-server:war exploded">
+    <output-path>$PROJECT_DIR$/单点登录/sso-server/target/sso-server</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>sso-server</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="sso-server" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.11" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/单点登录/sso-server/target/sso-server/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="sso-server/web/Web" />
+    </root>
+  </artifact>
+</component>

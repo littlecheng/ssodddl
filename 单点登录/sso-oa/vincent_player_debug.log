@@ -1,0 +1,376 @@
+2020-05-31 16:46:48  [ qtp1292487390-26:0 ] - [ INFO ]  username=null
+2020-05-31 16:46:48  [ qtp1292487390-26:0 ] - [ INFO ]  usernamenull
+2020-05-31 16:46:49  [ qtp1292487390-24:969 ] - [ INFO ]  username=null
+2020-05-31 16:46:49  [ qtp1292487390-24:969 ] - [ INFO ]  usernamenull
+2020-05-31 17:18:23  [ qtp341887005-22:0 ] - [ INFO ]  username=null
+2020-05-31 17:18:23  [ qtp341887005-22:16 ] - [ INFO ]  url=http%3A%2F%2Flocalhost%3A8082%2Foa%2Flist
+2020-05-31 17:18:23  [ qtp341887005-21:85 ] - [ INFO ]  username=null
+2020-05-31 17:18:23  [ qtp341887005-21:101 ] - [ DEBUG ]  Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+2020-05-31 17:18:23  [ qtp341887005-21:101 ] - [ DEBUG ]  Set parameter http.protocol.version = HTTP/1.1
+2020-05-31 17:18:23  [ qtp341887005-21:116 ] - [ DEBUG ]  Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+2020-05-31 17:18:23  [ qtp341887005-21:116 ] - [ DEBUG ]  Set parameter http.protocol.cookie-policy = default
+2020-05-31 17:18:23  [ qtp341887005-21:116 ] - [ DEBUG ]  Set parameter http.protocol.element-charset = US-ASCII
+2020-05-31 17:18:23  [ qtp341887005-21:116 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = ISO-8859-1
+2020-05-31 17:18:23  [ qtp341887005-21:116 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@1a6338eb
+2020-05-31 17:18:23  [ qtp341887005-21:116 ] - [ DEBUG ]  Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+2020-05-31 17:18:23  [ qtp341887005-21:132 ] - [ DEBUG ]  enter PostMethod.addParameter(String, String)
+2020-05-31 17:18:23  [ qtp341887005-21:132 ] - [ DEBUG ]  enter EntityEnclosingMethod.clearRequestBody()
+2020-05-31 17:18:23  [ qtp341887005-21:132 ] - [ DEBUG ]  Java version: 1.8.0_131
+2020-05-31 17:18:23  [ qtp341887005-21:132 ] - [ DEBUG ]  Java vendor: Oracle Corporation
+2020-05-31 17:18:23  [ qtp341887005-21:132 ] - [ DEBUG ]  Java class path: D:\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar
+2020-05-31 17:18:23  [ qtp341887005-21:132 ] - [ DEBUG ]  Operating system name: Windows 10
+2020-05-31 17:18:23  [ qtp341887005-21:132 ] - [ DEBUG ]  Operating system architecture: amd64
+2020-05-31 17:18:23  [ qtp341887005-21:132 ] - [ DEBUG ]  Operating system version: 10.0
+2020-05-31 17:18:23  [ qtp341887005-21:170 ] - [ DEBUG ]  SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+2020-05-31 17:18:23  [ qtp341887005-21:170 ] - [ DEBUG ]  SunRsaSign 1.8: Sun RSA signature provider
+2020-05-31 17:18:24  [ qtp341887005-21:185 ] - [ DEBUG ]  SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+2020-05-31 17:18:24  [ qtp341887005-21:185 ] - [ DEBUG ]  SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+2020-05-31 17:18:24  [ qtp341887005-21:185 ] - [ DEBUG ]  SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+2020-05-31 17:18:24  [ qtp341887005-21:185 ] - [ DEBUG ]  SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+2020-05-31 17:18:24  [ qtp341887005-21:185 ] - [ DEBUG ]  SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+2020-05-31 17:18:24  [ qtp341887005-21:185 ] - [ DEBUG ]  XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+2020-05-31 17:18:24  [ qtp341887005-21:185 ] - [ DEBUG ]  SunPCSC 1.8: Sun PC/SC provider
+2020-05-31 17:18:24  [ qtp341887005-21:185 ] - [ DEBUG ]  SunMSCAPI 1.8: Sun's Microsoft Crypto API provider
+2020-05-31 17:18:24  [ qtp341887005-21:185 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+2020-05-31 17:18:24  [ qtp341887005-21:185 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+2020-05-31 17:18:24  [ qtp341887005-21:201 ] - [ DEBUG ]  Attempt number 1 to process request
+2020-05-31 17:18:24  [ qtp341887005-21:201 ] - [ DEBUG ]  enter HttpConnection.open()
+2020-05-31 17:18:24  [ qtp341887005-21:201 ] - [ DEBUG ]  Open connection to localhost:8081
+2020-05-31 17:18:24  [ qtp341887005-21:217 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+2020-05-31 17:18:24  [ qtp341887005-21:217 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+2020-05-31 17:18:24  [ qtp341887005-21:217 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+2020-05-31 17:18:24  [ qtp341887005-21:217 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+2020-05-31 17:18:24  [ qtp341887005-21:217 ] - [ DEBUG ]  >> "POST /sso/ticket HTTP/1.1[\r][\n]"
+2020-05-31 17:18:24  [ qtp341887005-21:217 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2020-05-31 17:18:24  [ qtp341887005-21:217 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2020-05-31 17:18:24  [ qtp341887005-21:217 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2020-05-31 17:18:24  [ qtp341887005-21:217 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+2020-05-31 17:18:24  [ qtp341887005-21:217 ] - [ DEBUG ]  enter EntityEnclosingMethod.addRequestHeaders(HttpState, HttpConnection)
+2020-05-31 17:18:24  [ qtp341887005-21:217 ] - [ DEBUG ]  enter ExpectContinueMethod.addRequestHeaders(HttpState, HttpConnection)
+2020-05-31 17:18:24  [ qtp341887005-21:217 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+2020-05-31 17:18:24  [ qtp341887005-21:217 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+2020-05-31 17:18:24  [ qtp341887005-21:217 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+2020-05-31 17:18:24  [ qtp341887005-21:217 ] - [ DEBUG ]  Adding Host request header
+2020-05-31 17:18:24  [ qtp341887005-21:217 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+2020-05-31 17:18:24  [ qtp341887005-21:232 ] - [ DEBUG ]  enter HttpState.getCookies()
+2020-05-31 17:18:24  [ qtp341887005-21:232 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+2020-05-31 17:18:24  [ qtp341887005-21:232 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+2020-05-31 17:18:24  [ qtp341887005-21:232 ] - [ DEBUG ]  enter EntityEnclosingMethod.addContentLengthRequestHeader(HttpState, HttpConnection)
+2020-05-31 17:18:24  [ qtp341887005-21:232 ] - [ DEBUG ]  enter EntityEnclosingMethod.getRequestContentLength()
+2020-05-31 17:18:24  [ qtp341887005-21:232 ] - [ DEBUG ]  enter PostMethod.hasRequestContent()
+2020-05-31 17:18:24  [ qtp341887005-21:232 ] - [ DEBUG ]  enter PostMethod.getParameters()
+2020-05-31 17:18:24  [ qtp341887005-21:232 ] - [ DEBUG ]  enter getContentCharSet( Header contentheader )
+2020-05-31 17:18:24  [ qtp341887005-21:232 ] - [ DEBUG ]  Default charset used: ISO-8859-1
+2020-05-31 17:18:24  [ qtp341887005-21:232 ] - [ DEBUG ]  HttpMethodBase.addRequestHeader(Header)
+2020-05-31 17:18:24  [ qtp341887005-21:232 ] - [ DEBUG ]  enter PostMethod.getParameters()
+2020-05-31 17:18:24  [ qtp341887005-21:232 ] - [ DEBUG ]  enter getContentCharSet( Header contentheader )
+2020-05-31 17:18:24  [ qtp341887005-21:232 ] - [ DEBUG ]  enter HeaderElement.parseElements(String)
+2020-05-31 17:18:24  [ qtp341887005-21:232 ] - [ DEBUG ]  enter HeaderElement.parseElements(char[])
+2020-05-31 17:18:24  [ qtp341887005-21:232 ] - [ DEBUG ]  enter HeaderElement.getParameterByName(String)
+2020-05-31 17:18:24  [ qtp341887005-21:232 ] - [ DEBUG ]  Default charset used: ISO-8859-1
+2020-05-31 17:18:24  [ qtp341887005-21:232 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2020-05-31 17:18:24  [ qtp341887005-21:232 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2020-05-31 17:18:24  [ qtp341887005-21:232 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2020-05-31 17:18:24  [ qtp341887005-21:248 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2020-05-31 17:18:24  [ qtp341887005-21:248 ] - [ DEBUG ]  >> "Host: localhost:8081[\r][\n]"
+2020-05-31 17:18:24  [ qtp341887005-21:248 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2020-05-31 17:18:24  [ qtp341887005-21:248 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2020-05-31 17:18:24  [ qtp341887005-21:248 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2020-05-31 17:18:24  [ qtp341887005-21:248 ] - [ DEBUG ]  >> "Content-Length: 25[\r][\n]"
+2020-05-31 17:18:24  [ qtp341887005-21:248 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2020-05-31 17:18:24  [ qtp341887005-21:248 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2020-05-31 17:18:24  [ qtp341887005-21:248 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2020-05-31 17:18:24  [ qtp341887005-21:248 ] - [ DEBUG ]  >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2020-05-31 17:18:24  [ qtp341887005-21:248 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2020-05-31 17:18:24  [ qtp341887005-21:248 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2020-05-31 17:18:24  [ qtp341887005-21:248 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2020-05-31 17:18:24  [ qtp341887005-21:248 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+2020-05-31 17:18:24  [ qtp341887005-21:248 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2020-05-31 17:18:24  [ qtp341887005-21:248 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2020-05-31 17:18:24  [ qtp341887005-21:248 ] - [ DEBUG ]  >> "[\r][\n]"
+2020-05-31 17:18:24  [ qtp341887005-21:248 ] - [ DEBUG ]  enter EntityEnclosingMethod.writeRequestBody(HttpState, HttpConnection)
+2020-05-31 17:18:24  [ qtp341887005-21:248 ] - [ DEBUG ]  enter PostMethod.hasRequestContent()
+2020-05-31 17:18:24  [ qtp341887005-21:248 ] - [ DEBUG ]  enter EntityEnclosingMethod.getRequestContentLength()
+2020-05-31 17:18:24  [ qtp341887005-21:248 ] - [ DEBUG ]  enter PostMethod.hasRequestContent()
+2020-05-31 17:18:24  [ qtp341887005-21:248 ] - [ DEBUG ]  enter HttpConnection.getRequestOutputStream()
+2020-05-31 17:18:24  [ qtp341887005-21:248 ] - [ DEBUG ]  >> "ticket=cloud1590916703894"
+2020-05-31 17:18:24  [ qtp341887005-21:248 ] - [ DEBUG ]  Request body sent
+2020-05-31 17:18:24  [ qtp341887005-21:248 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+2020-05-31 17:18:24  [ qtp341887005-21:263 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+2020-05-31 17:18:24  [ qtp341887005-21:263 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+2020-05-31 17:18:24  [ qtp341887005-21:270 ] - [ DEBUG ]  enter HttpConnection.readLine()
+2020-05-31 17:18:24  [ qtp341887005-21:270 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2020-05-31 17:18:24  [ qtp341887005-21:270 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2020-05-31 17:18:24  [ qtp341887005-21:270 ] - [ DEBUG ]  << "HTTP/1.1 200 OK[\r][\n]"
+2020-05-31 17:18:24  [ qtp341887005-21:270 ] - [ DEBUG ]  << "HTTP/1.1 200 OK[\r][\n]"
+2020-05-31 17:18:24  [ qtp341887005-21:270 ] - [ DEBUG ]  enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+2020-05-31 17:18:24  [ qtp341887005-21:270 ] - [ DEBUG ]  enter HttpConnection.getResponseInputStream()
+2020-05-31 17:18:24  [ qtp341887005-21:270 ] - [ DEBUG ]  enter HeaderParser.parseHeaders(InputStream, String)
+2020-05-31 17:18:24  [ qtp341887005-21:270 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2020-05-31 17:18:24  [ qtp341887005-21:270 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2020-05-31 17:18:24  [ qtp341887005-21:301 ] - [ DEBUG ]  << "Content-Length: 5[\r][\n]"
+2020-05-31 17:18:24  [ qtp341887005-21:301 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2020-05-31 17:18:24  [ qtp341887005-21:301 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2020-05-31 17:18:24  [ qtp341887005-21:301 ] - [ DEBUG ]  << "Server: Jetty(8.1.9.v20130131)[\r][\n]"
+2020-05-31 17:18:24  [ qtp341887005-21:301 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2020-05-31 17:18:24  [ qtp341887005-21:317 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2020-05-31 17:18:24  [ qtp341887005-21:317 ] - [ DEBUG ]  << "[\r][\n]"
+2020-05-31 17:18:24  [ qtp341887005-21:317 ] - [ DEBUG ]  enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+2020-05-31 17:18:24  [ qtp341887005-21:317 ] - [ DEBUG ]  enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
+2020-05-31 17:18:24  [ qtp341887005-21:317 ] - [ DEBUG ]  enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+2020-05-31 17:18:24  [ qtp341887005-21:317 ] - [ DEBUG ]  enter HttpMethodBase.readResponseBody(HttpConnection)
+2020-05-31 17:18:24  [ qtp341887005-21:317 ] - [ DEBUG ]  enter HttpConnection.getResponseInputStream()
+2020-05-31 17:18:24  [ qtp341887005-21:317 ] - [ DEBUG ]  enter HttpMethodBase.canResponseHaveBody(int)
+2020-05-31 17:18:24  [ qtp341887005-21:317 ] - [ DEBUG ]  Buffering response body
+2020-05-31 17:18:24  [ qtp341887005-21:317 ] - [ DEBUG ]  << "cloud"
+2020-05-31 17:18:24  [ qtp341887005-21:317 ] - [ DEBUG ]  Resorting to protocol version default close connection policy
+2020-05-31 17:18:24  [ qtp341887005-21:317 ] - [ DEBUG ]  Should NOT close connection, using HTTP/1.1
+2020-05-31 17:18:24  [ qtp341887005-21:317 ] - [ DEBUG ]  enter HttpConnection.isResponseAvailable()
+2020-05-31 17:18:24  [ qtp341887005-21:317 ] - [ DEBUG ]  enter HttpConnection.releaseConnection()
+2020-05-31 17:18:24  [ qtp341887005-21:317 ] - [ DEBUG ]  Releasing connection back to connection manager.
+2020-05-31 17:18:24  [ qtp341887005-21:317 ] - [ DEBUG ]  enter getContentCharSet( Header contentheader )
+2020-05-31 17:18:24  [ qtp341887005-21:317 ] - [ DEBUG ]  Default charset used: ISO-8859-1
+2020-05-31 17:18:24  [ qtp341887005-21:317 ] - [ INFO ]  username=cloud
+2020-05-31 17:18:24  [ qtp341887005-21:317 ] - [ INFO ]  doFilter...
+2020-05-31 17:21:35  [ qtp341887005-21:191665 ] - [ INFO ]  username=null
+2020-05-31 17:21:35  [ qtp341887005-21:191666 ] - [ INFO ]  url=http%3A%2F%2Flocalhost%3A8082%2Foa%2Flist
+2020-05-31 17:31:02  [ qtp341887005-20:758626 ] - [ INFO ]  username=null
+2020-05-31 17:31:02  [ qtp341887005-20:758628 ] - [ DEBUG ]  enter PostMethod.addParameter(String, String)
+2020-05-31 17:31:02  [ qtp341887005-20:758628 ] - [ DEBUG ]  enter EntityEnclosingMethod.clearRequestBody()
+2020-05-31 17:31:02  [ qtp341887005-20:758629 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+2020-05-31 17:31:02  [ qtp341887005-20:758629 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+2020-05-31 17:31:02  [ qtp341887005-20:758630 ] - [ DEBUG ]  Attempt number 1 to process request
+2020-05-31 17:31:02  [ qtp341887005-20:758631 ] - [ DEBUG ]  enter HttpConnection.open()
+2020-05-31 17:31:02  [ qtp341887005-20:758631 ] - [ DEBUG ]  Open connection to localhost:8081
+2020-05-31 17:31:02  [ qtp341887005-20:758633 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+2020-05-31 17:31:02  [ qtp341887005-20:758633 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+2020-05-31 17:31:02  [ qtp341887005-20:758634 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+2020-05-31 17:31:02  [ qtp341887005-20:758634 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+2020-05-31 17:31:02  [ qtp341887005-20:758635 ] - [ DEBUG ]  >> "POST /sso/ticket HTTP/1.1[\r][\n]"
+2020-05-31 17:31:02  [ qtp341887005-20:758636 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2020-05-31 17:31:02  [ qtp341887005-20:758637 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2020-05-31 17:31:02  [ qtp341887005-20:758638 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2020-05-31 17:31:02  [ qtp341887005-20:758638 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+2020-05-31 17:31:02  [ qtp341887005-20:758639 ] - [ DEBUG ]  enter EntityEnclosingMethod.addRequestHeaders(HttpState, HttpConnection)
+2020-05-31 17:31:02  [ qtp341887005-20:758639 ] - [ DEBUG ]  enter ExpectContinueMethod.addRequestHeaders(HttpState, HttpConnection)
+2020-05-31 17:31:02  [ qtp341887005-20:758640 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+2020-05-31 17:31:02  [ qtp341887005-20:758640 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+2020-05-31 17:31:02  [ qtp341887005-20:758641 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+2020-05-31 17:31:02  [ qtp341887005-20:758641 ] - [ DEBUG ]  Adding Host request header
+2020-05-31 17:31:02  [ qtp341887005-20:758641 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+2020-05-31 17:31:02  [ qtp341887005-20:758642 ] - [ DEBUG ]  enter HttpState.getCookies()
+2020-05-31 17:31:02  [ qtp341887005-20:758642 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+2020-05-31 17:31:02  [ qtp341887005-20:758643 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+2020-05-31 17:31:02  [ qtp341887005-20:758643 ] - [ DEBUG ]  enter EntityEnclosingMethod.addContentLengthRequestHeader(HttpState, HttpConnection)
+2020-05-31 17:31:02  [ qtp341887005-20:758644 ] - [ DEBUG ]  enter EntityEnclosingMethod.getRequestContentLength()
+2020-05-31 17:31:02  [ qtp341887005-20:758644 ] - [ DEBUG ]  enter PostMethod.hasRequestContent()
+2020-05-31 17:31:02  [ qtp341887005-20:758645 ] - [ DEBUG ]  enter PostMethod.getParameters()
+2020-05-31 17:31:02  [ qtp341887005-20:758647 ] - [ DEBUG ]  enter getContentCharSet( Header contentheader )
+2020-05-31 17:31:02  [ qtp341887005-20:758649 ] - [ DEBUG ]  Default charset used: ISO-8859-1
+2020-05-31 17:31:02  [ qtp341887005-20:758650 ] - [ DEBUG ]  HttpMethodBase.addRequestHeader(Header)
+2020-05-31 17:31:02  [ qtp341887005-20:758650 ] - [ DEBUG ]  enter PostMethod.getParameters()
+2020-05-31 17:31:02  [ qtp341887005-20:758651 ] - [ DEBUG ]  enter getContentCharSet( Header contentheader )
+2020-05-31 17:31:02  [ qtp341887005-20:758651 ] - [ DEBUG ]  enter HeaderElement.parseElements(String)
+2020-05-31 17:31:02  [ qtp341887005-20:758652 ] - [ DEBUG ]  enter HeaderElement.parseElements(char[])
+2020-05-31 17:31:02  [ qtp341887005-20:758653 ] - [ DEBUG ]  enter HeaderElement.getParameterByName(String)
+2020-05-31 17:31:02  [ qtp341887005-20:758654 ] - [ DEBUG ]  Default charset used: ISO-8859-1
+2020-05-31 17:31:02  [ qtp341887005-20:758657 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2020-05-31 17:31:02  [ qtp341887005-20:758657 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2020-05-31 17:31:02  [ qtp341887005-20:758658 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2020-05-31 17:31:02  [ qtp341887005-20:758658 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2020-05-31 17:31:02  [ qtp341887005-20:758659 ] - [ DEBUG ]  >> "Host: localhost:8081[\r][\n]"
+2020-05-31 17:31:02  [ qtp341887005-20:758659 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2020-05-31 17:31:02  [ qtp341887005-20:758660 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2020-05-31 17:31:02  [ qtp341887005-20:758660 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2020-05-31 17:31:02  [ qtp341887005-20:758661 ] - [ DEBUG ]  >> "Content-Length: 25[\r][\n]"
+2020-05-31 17:31:02  [ qtp341887005-20:758661 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2020-05-31 17:31:02  [ qtp341887005-20:758662 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2020-05-31 17:31:02  [ qtp341887005-20:758662 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2020-05-31 17:31:02  [ qtp341887005-20:758663 ] - [ DEBUG ]  >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2020-05-31 17:31:02  [ qtp341887005-20:758663 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2020-05-31 17:31:02  [ qtp341887005-20:758663 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2020-05-31 17:31:02  [ qtp341887005-20:758664 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2020-05-31 17:31:02  [ qtp341887005-20:758665 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+2020-05-31 17:31:02  [ qtp341887005-20:758665 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2020-05-31 17:31:02  [ qtp341887005-20:758665 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2020-05-31 17:31:02  [ qtp341887005-20:758666 ] - [ DEBUG ]  >> "[\r][\n]"
+2020-05-31 17:31:02  [ qtp341887005-20:758666 ] - [ DEBUG ]  enter EntityEnclosingMethod.writeRequestBody(HttpState, HttpConnection)
+2020-05-31 17:31:02  [ qtp341887005-20:758667 ] - [ DEBUG ]  enter PostMethod.hasRequestContent()
+2020-05-31 17:31:02  [ qtp341887005-20:758667 ] - [ DEBUG ]  enter EntityEnclosingMethod.getRequestContentLength()
+2020-05-31 17:31:02  [ qtp341887005-20:758668 ] - [ DEBUG ]  enter PostMethod.hasRequestContent()
+2020-05-31 17:31:02  [ qtp341887005-20:758668 ] - [ DEBUG ]  enter HttpConnection.getRequestOutputStream()
+2020-05-31 17:31:02  [ qtp341887005-20:758669 ] - [ DEBUG ]  >> "ticket=cloud1590917462445"
+2020-05-31 17:31:02  [ qtp341887005-20:758670 ] - [ DEBUG ]  Request body sent
+2020-05-31 17:31:02  [ qtp341887005-20:758671 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+2020-05-31 17:31:02  [ qtp341887005-20:758672 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+2020-05-31 17:31:02  [ qtp341887005-20:758673 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+2020-05-31 17:31:02  [ qtp341887005-20:758673 ] - [ DEBUG ]  enter HttpConnection.readLine()
+2020-05-31 17:31:02  [ qtp341887005-20:758674 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2020-05-31 17:31:02  [ qtp341887005-20:758679 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2020-05-31 17:31:02  [ qtp341887005-20:758680 ] - [ DEBUG ]  << "HTTP/1.1 200 OK[\r][\n]"
+2020-05-31 17:31:02  [ qtp341887005-20:758680 ] - [ DEBUG ]  << "HTTP/1.1 200 OK[\r][\n]"
+2020-05-31 17:31:02  [ qtp341887005-20:758681 ] - [ DEBUG ]  enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+2020-05-31 17:31:02  [ qtp341887005-20:758681 ] - [ DEBUG ]  enter HttpConnection.getResponseInputStream()
+2020-05-31 17:31:02  [ qtp341887005-20:758682 ] - [ DEBUG ]  enter HeaderParser.parseHeaders(InputStream, String)
+2020-05-31 17:31:02  [ qtp341887005-20:758683 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2020-05-31 17:31:02  [ qtp341887005-20:758683 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2020-05-31 17:31:02  [ qtp341887005-20:758683 ] - [ DEBUG ]  << "Content-Length: 5[\r][\n]"
+2020-05-31 17:31:02  [ qtp341887005-20:758684 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2020-05-31 17:31:02  [ qtp341887005-20:758685 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2020-05-31 17:31:02  [ qtp341887005-20:758686 ] - [ DEBUG ]  << "Server: Jetty(8.1.9.v20130131)[\r][\n]"
+2020-05-31 17:31:02  [ qtp341887005-20:758687 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2020-05-31 17:31:02  [ qtp341887005-20:758688 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2020-05-31 17:31:02  [ qtp341887005-20:758688 ] - [ DEBUG ]  << "[\r][\n]"
+2020-05-31 17:31:02  [ qtp341887005-20:758688 ] - [ DEBUG ]  enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+2020-05-31 17:31:02  [ qtp341887005-20:758689 ] - [ DEBUG ]  enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
+2020-05-31 17:31:02  [ qtp341887005-20:758689 ] - [ DEBUG ]  enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+2020-05-31 17:31:02  [ qtp341887005-20:758690 ] - [ DEBUG ]  enter HttpMethodBase.readResponseBody(HttpConnection)
+2020-05-31 17:31:02  [ qtp341887005-20:758690 ] - [ DEBUG ]  enter HttpConnection.getResponseInputStream()
+2020-05-31 17:31:02  [ qtp341887005-20:758691 ] - [ DEBUG ]  enter HttpMethodBase.canResponseHaveBody(int)
+2020-05-31 17:31:02  [ qtp341887005-20:758692 ] - [ DEBUG ]  Buffering response body
+2020-05-31 17:31:02  [ qtp341887005-20:758692 ] - [ DEBUG ]  << "cloud"
+2020-05-31 17:31:02  [ qtp341887005-20:758693 ] - [ DEBUG ]  Resorting to protocol version default close connection policy
+2020-05-31 17:31:02  [ qtp341887005-20:758693 ] - [ DEBUG ]  Should NOT close connection, using HTTP/1.1
+2020-05-31 17:31:02  [ qtp341887005-20:758694 ] - [ DEBUG ]  enter HttpConnection.isResponseAvailable()
+2020-05-31 17:31:02  [ qtp341887005-20:758694 ] - [ DEBUG ]  enter HttpConnection.releaseConnection()
+2020-05-31 17:31:02  [ qtp341887005-20:758695 ] - [ DEBUG ]  Releasing connection back to connection manager.
+2020-05-31 17:31:02  [ qtp341887005-20:758695 ] - [ DEBUG ]  enter getContentCharSet( Header contentheader )
+2020-05-31 17:31:02  [ qtp341887005-20:758695 ] - [ DEBUG ]  Default charset used: ISO-8859-1
+2020-05-31 17:31:02  [ qtp341887005-20:758696 ] - [ INFO ]  username=cloud
+2020-05-31 17:31:02  [ qtp341887005-20:758696 ] - [ INFO ]  doFilter...
+2020-05-31 17:42:51  [ qtp1969969319-21:0 ] - [ INFO ]  username=null,ticket=null,url=http%3A%2F%2Flocalhost%3A8082%2Foa%2Flist
+2020-05-31 17:42:51  [ qtp1969969319-21:3 ] - [ INFO ]  url=http%3A%2F%2Flocalhost%3A8082%2Foa%2Flist
+2020-05-31 18:07:34  [ qtp1969969319-23:1483780 ] - [ INFO ]  username=null,ticket=null,url=http%3A%2F%2Flocalhost%3A8082%2Foa%2Flist
+2020-05-31 18:07:34  [ qtp1969969319-23:1483781 ] - [ INFO ]  url=http%3A%2F%2Flocalhost%3A8082%2Foa%2Flist
+2020-05-31 18:25:22  [ qtp2081595126-21:0 ] - [ INFO ]  username=null,ticket=null,url=http://localhost:8082/oa/list
+2020-05-31 18:25:22  [ qtp2081595126-21:6 ] - [ INFO ]  url=http://localhost:8082/oa/list
+2020-05-31 18:34:49  [ qtp2081595126-22:567063 ] - [ INFO ]  username=null,ticket=null,url=http://localhost:8082/oa/list
+2020-05-31 18:34:49  [ qtp2081595126-22:567066 ] - [ INFO ]  url=http://localhost:8082/oa/list
+2020-05-31 18:39:44  [ qtp2081595126-22:862606 ] - [ INFO ]  username=null,ticket=cloud1590921584651,url=http://localhost:8082/oa/list
+2020-05-31 18:39:44  [ qtp2081595126-22:862635 ] - [ DEBUG ]  Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+2020-05-31 18:39:44  [ qtp2081595126-22:862636 ] - [ DEBUG ]  Set parameter http.protocol.version = HTTP/1.1
+2020-05-31 18:39:44  [ qtp2081595126-22:862639 ] - [ DEBUG ]  Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+2020-05-31 18:39:44  [ qtp2081595126-22:862640 ] - [ DEBUG ]  Set parameter http.protocol.cookie-policy = default
+2020-05-31 18:39:44  [ qtp2081595126-22:862642 ] - [ DEBUG ]  Set parameter http.protocol.element-charset = US-ASCII
+2020-05-31 18:39:44  [ qtp2081595126-22:862643 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = ISO-8859-1
+2020-05-31 18:39:44  [ qtp2081595126-22:862645 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@33aeff07
+2020-05-31 18:39:44  [ qtp2081595126-22:862646 ] - [ DEBUG ]  Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+2020-05-31 18:39:44  [ qtp2081595126-22:862658 ] - [ DEBUG ]  enter PostMethod.addParameter(String, String)
+2020-05-31 18:39:44  [ qtp2081595126-22:862659 ] - [ DEBUG ]  enter EntityEnclosingMethod.clearRequestBody()
+2020-05-31 18:39:44  [ qtp2081595126-22:862661 ] - [ DEBUG ]  Java version: 1.8.0_131
+2020-05-31 18:39:44  [ qtp2081595126-22:862661 ] - [ DEBUG ]  Java vendor: Oracle Corporation
+2020-05-31 18:39:44  [ qtp2081595126-22:862662 ] - [ DEBUG ]  Java class path: D:\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar
+2020-05-31 18:39:44  [ qtp2081595126-22:862662 ] - [ DEBUG ]  Operating system name: Windows 10
+2020-05-31 18:39:44  [ qtp2081595126-22:862663 ] - [ DEBUG ]  Operating system architecture: amd64
+2020-05-31 18:39:44  [ qtp2081595126-22:862663 ] - [ DEBUG ]  Operating system version: 10.0
+2020-05-31 18:39:44  [ qtp2081595126-22:862698 ] - [ DEBUG ]  SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+2020-05-31 18:39:44  [ qtp2081595126-22:862700 ] - [ DEBUG ]  SunRsaSign 1.8: Sun RSA signature provider
+2020-05-31 18:39:44  [ qtp2081595126-22:862701 ] - [ DEBUG ]  SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+2020-05-31 18:39:44  [ qtp2081595126-22:862701 ] - [ DEBUG ]  SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+2020-05-31 18:39:44  [ qtp2081595126-22:862702 ] - [ DEBUG ]  SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+2020-05-31 18:39:44  [ qtp2081595126-22:862703 ] - [ DEBUG ]  SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+2020-05-31 18:39:44  [ qtp2081595126-22:862703 ] - [ DEBUG ]  SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+2020-05-31 18:39:44  [ qtp2081595126-22:862704 ] - [ DEBUG ]  XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+2020-05-31 18:39:44  [ qtp2081595126-22:862705 ] - [ DEBUG ]  SunPCSC 1.8: Sun PC/SC provider
+2020-05-31 18:39:44  [ qtp2081595126-22:862706 ] - [ DEBUG ]  SunMSCAPI 1.8: Sun's Microsoft Crypto API provider
+2020-05-31 18:39:44  [ qtp2081595126-22:862710 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+2020-05-31 18:39:44  [ qtp2081595126-22:862710 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+2020-05-31 18:39:44  [ qtp2081595126-22:862717 ] - [ DEBUG ]  Attempt number 1 to process request
+2020-05-31 18:39:44  [ qtp2081595126-22:862718 ] - [ DEBUG ]  enter HttpConnection.open()
+2020-05-31 18:39:44  [ qtp2081595126-22:862719 ] - [ DEBUG ]  Open connection to localhost:8081
+2020-05-31 18:39:44  [ qtp2081595126-22:862727 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+2020-05-31 18:39:44  [ qtp2081595126-22:862728 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+2020-05-31 18:39:44  [ qtp2081595126-22:862728 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+2020-05-31 18:39:44  [ qtp2081595126-22:862729 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+2020-05-31 18:39:44  [ qtp2081595126-22:862730 ] - [ DEBUG ]  >> "POST /sso/ticket HTTP/1.1[\r][\n]"
+2020-05-31 18:39:44  [ qtp2081595126-22:862731 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2020-05-31 18:39:44  [ qtp2081595126-22:862731 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2020-05-31 18:39:44  [ qtp2081595126-22:862732 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2020-05-31 18:39:44  [ qtp2081595126-22:862732 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+2020-05-31 18:39:44  [ qtp2081595126-22:862733 ] - [ DEBUG ]  enter EntityEnclosingMethod.addRequestHeaders(HttpState, HttpConnection)
+2020-05-31 18:39:44  [ qtp2081595126-22:862733 ] - [ DEBUG ]  enter ExpectContinueMethod.addRequestHeaders(HttpState, HttpConnection)
+2020-05-31 18:39:44  [ qtp2081595126-22:862734 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+2020-05-31 18:39:44  [ qtp2081595126-22:862734 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+2020-05-31 18:39:44  [ qtp2081595126-22:862735 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+2020-05-31 18:39:44  [ qtp2081595126-22:862735 ] - [ DEBUG ]  Adding Host request header
+2020-05-31 18:39:44  [ qtp2081595126-22:862736 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+2020-05-31 18:39:44  [ qtp2081595126-22:862744 ] - [ DEBUG ]  enter HttpState.getCookies()
+2020-05-31 18:39:44  [ qtp2081595126-22:862745 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+2020-05-31 18:39:44  [ qtp2081595126-22:862746 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+2020-05-31 18:39:44  [ qtp2081595126-22:862746 ] - [ DEBUG ]  enter EntityEnclosingMethod.addContentLengthRequestHeader(HttpState, HttpConnection)
+2020-05-31 18:39:44  [ qtp2081595126-22:862747 ] - [ DEBUG ]  enter EntityEnclosingMethod.getRequestContentLength()
+2020-05-31 18:39:44  [ qtp2081595126-22:862748 ] - [ DEBUG ]  enter PostMethod.hasRequestContent()
+2020-05-31 18:39:44  [ qtp2081595126-22:862748 ] - [ DEBUG ]  enter PostMethod.getParameters()
+2020-05-31 18:39:44  [ qtp2081595126-22:862749 ] - [ DEBUG ]  enter getContentCharSet( Header contentheader )
+2020-05-31 18:39:44  [ qtp2081595126-22:862750 ] - [ DEBUG ]  Default charset used: ISO-8859-1
+2020-05-31 18:39:44  [ qtp2081595126-22:862751 ] - [ DEBUG ]  HttpMethodBase.addRequestHeader(Header)
+2020-05-31 18:39:44  [ qtp2081595126-22:862751 ] - [ DEBUG ]  enter PostMethod.getParameters()
+2020-05-31 18:39:44  [ qtp2081595126-22:862752 ] - [ DEBUG ]  enter getContentCharSet( Header contentheader )
+2020-05-31 18:39:44  [ qtp2081595126-22:862753 ] - [ DEBUG ]  enter HeaderElement.parseElements(String)
+2020-05-31 18:39:44  [ qtp2081595126-22:862754 ] - [ DEBUG ]  enter HeaderElement.parseElements(char[])
+2020-05-31 18:39:44  [ qtp2081595126-22:862755 ] - [ DEBUG ]  enter HeaderElement.getParameterByName(String)
+2020-05-31 18:39:44  [ qtp2081595126-22:862755 ] - [ DEBUG ]  Default charset used: ISO-8859-1
+2020-05-31 18:39:44  [ qtp2081595126-22:862756 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2020-05-31 18:39:44  [ qtp2081595126-22:862757 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2020-05-31 18:39:44  [ qtp2081595126-22:862757 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2020-05-31 18:39:44  [ qtp2081595126-22:862758 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2020-05-31 18:39:44  [ qtp2081595126-22:862758 ] - [ DEBUG ]  >> "Host: localhost:8081[\r][\n]"
+2020-05-31 18:39:44  [ qtp2081595126-22:862759 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2020-05-31 18:39:44  [ qtp2081595126-22:862759 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2020-05-31 18:39:44  [ qtp2081595126-22:862760 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2020-05-31 18:39:44  [ qtp2081595126-22:862760 ] - [ DEBUG ]  >> "Content-Length: 25[\r][\n]"
+2020-05-31 18:39:44  [ qtp2081595126-22:862760 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2020-05-31 18:39:44  [ qtp2081595126-22:862761 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2020-05-31 18:39:44  [ qtp2081595126-22:862761 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2020-05-31 18:39:44  [ qtp2081595126-22:862762 ] - [ DEBUG ]  >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2020-05-31 18:39:44  [ qtp2081595126-22:862762 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2020-05-31 18:39:44  [ qtp2081595126-22:862763 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2020-05-31 18:39:44  [ qtp2081595126-22:862763 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2020-05-31 18:39:44  [ qtp2081595126-22:862763 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+2020-05-31 18:39:44  [ qtp2081595126-22:862764 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2020-05-31 18:39:44  [ qtp2081595126-22:862764 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2020-05-31 18:39:44  [ qtp2081595126-22:862765 ] - [ DEBUG ]  >> "[\r][\n]"
+2020-05-31 18:39:44  [ qtp2081595126-22:862766 ] - [ DEBUG ]  enter EntityEnclosingMethod.writeRequestBody(HttpState, HttpConnection)
+2020-05-31 18:39:44  [ qtp2081595126-22:862766 ] - [ DEBUG ]  enter PostMethod.hasRequestContent()
+2020-05-31 18:39:44  [ qtp2081595126-22:862767 ] - [ DEBUG ]  enter EntityEnclosingMethod.getRequestContentLength()
+2020-05-31 18:39:44  [ qtp2081595126-22:862767 ] - [ DEBUG ]  enter PostMethod.hasRequestContent()
+2020-05-31 18:39:44  [ qtp2081595126-22:862768 ] - [ DEBUG ]  enter HttpConnection.getRequestOutputStream()
+2020-05-31 18:39:44  [ qtp2081595126-22:862768 ] - [ DEBUG ]  >> "ticket=cloud1590921584651"
+2020-05-31 18:39:44  [ qtp2081595126-22:862769 ] - [ DEBUG ]  Request body sent
+2020-05-31 18:39:44  [ qtp2081595126-22:862770 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+2020-05-31 18:39:44  [ qtp2081595126-22:862771 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+2020-05-31 18:39:44  [ qtp2081595126-22:862772 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+2020-05-31 18:39:44  [ qtp2081595126-22:862773 ] - [ DEBUG ]  enter HttpConnection.readLine()
+2020-05-31 18:39:44  [ qtp2081595126-22:862776 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2020-05-31 18:39:44  [ qtp2081595126-22:862777 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2020-05-31 18:39:44  [ qtp2081595126-22:862778 ] - [ DEBUG ]  << "HTTP/1.1 200 OK[\r][\n]"
+2020-05-31 18:39:44  [ qtp2081595126-22:862779 ] - [ DEBUG ]  << "HTTP/1.1 200 OK[\r][\n]"
+2020-05-31 18:39:44  [ qtp2081595126-22:862780 ] - [ DEBUG ]  enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+2020-05-31 18:39:44  [ qtp2081595126-22:862781 ] - [ DEBUG ]  enter HttpConnection.getResponseInputStream()
+2020-05-31 18:39:44  [ qtp2081595126-22:862783 ] - [ DEBUG ]  enter HeaderParser.parseHeaders(InputStream, String)
+2020-05-31 18:39:44  [ qtp2081595126-22:862786 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2020-05-31 18:39:44  [ qtp2081595126-22:862787 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2020-05-31 18:39:44  [ qtp2081595126-22:862788 ] - [ DEBUG ]  << "Content-Length: 5[\r][\n]"
+2020-05-31 18:39:44  [ qtp2081595126-22:862788 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2020-05-31 18:39:44  [ qtp2081595126-22:862790 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2020-05-31 18:39:44  [ qtp2081595126-22:862791 ] - [ DEBUG ]  << "Server: Jetty(8.1.9.v20130131)[\r][\n]"
+2020-05-31 18:39:44  [ qtp2081595126-22:862792 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2020-05-31 18:39:44  [ qtp2081595126-22:862793 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2020-05-31 18:39:44  [ qtp2081595126-22:862793 ] - [ DEBUG ]  << "[\r][\n]"
+2020-05-31 18:39:44  [ qtp2081595126-22:862794 ] - [ DEBUG ]  enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+2020-05-31 18:39:44  [ qtp2081595126-22:862795 ] - [ DEBUG ]  enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
+2020-05-31 18:39:44  [ qtp2081595126-22:862796 ] - [ DEBUG ]  enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+2020-05-31 18:39:44  [ qtp2081595126-22:862797 ] - [ DEBUG ]  enter HttpMethodBase.readResponseBody(HttpConnection)
+2020-05-31 18:39:44  [ qtp2081595126-22:862797 ] - [ DEBUG ]  enter HttpConnection.getResponseInputStream()
+2020-05-31 18:39:44  [ qtp2081595126-22:862798 ] - [ DEBUG ]  enter HttpMethodBase.canResponseHaveBody(int)
+2020-05-31 18:39:44  [ qtp2081595126-22:862802 ] - [ DEBUG ]  Buffering response body
+2020-05-31 18:39:44  [ qtp2081595126-22:862803 ] - [ DEBUG ]  << "cloud"
+2020-05-31 18:39:44  [ qtp2081595126-22:862804 ] - [ DEBUG ]  Resorting to protocol version default close connection policy
+2020-05-31 18:39:44  [ qtp2081595126-22:862806 ] - [ DEBUG ]  Should NOT close connection, using HTTP/1.1
+2020-05-31 18:39:44  [ qtp2081595126-22:862809 ] - [ DEBUG ]  enter HttpConnection.isResponseAvailable()
+2020-05-31 18:39:44  [ qtp2081595126-22:862810 ] - [ DEBUG ]  enter HttpConnection.releaseConnection()
+2020-05-31 18:39:44  [ qtp2081595126-22:862811 ] - [ DEBUG ]  Releasing connection back to connection manager.
+2020-05-31 18:39:44  [ qtp2081595126-22:862812 ] - [ DEBUG ]  enter getContentCharSet( Header contentheader )
+2020-05-31 18:39:44  [ qtp2081595126-22:862814 ] - [ DEBUG ]  Default charset used: ISO-8859-1
+2020-05-31 18:39:44  [ qtp2081595126-22:862815 ] - [ INFO ]  username=cloud
+2020-05-31 18:39:44  [ qtp2081595126-22:862816 ] - [ INFO ]  doFilter...

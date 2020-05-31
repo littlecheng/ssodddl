@@ -1,0 +1,4 @@
+# Project exclude paths
+/单点登录/sso-oa/target/
+/单点登录/sso-pro/target/
+/单点登录/sso-server/target/
