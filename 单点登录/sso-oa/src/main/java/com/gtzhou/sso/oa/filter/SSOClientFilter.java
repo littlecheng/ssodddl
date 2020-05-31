@@ -3,6 +3,8 @@ package com.gtzhou.sso.oa.filter;
 import java.io.IOException;
 import java.net.URLDecoder;
 import java.net.URLEncoder;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import javax.servlet.Filter;
 import javax.servlet.FilterChain;
@@ -36,7 +38,7 @@ public class SSOClientFilter implements Filter{
         String username = (String) session.getAttribute("username");
         String ticket = request.getParameter("ticket");
         String url = URLEncoder.encode(request.getRequestURL().toString(), "UTF-8");
-        logger.info("username="+username+",ticket="+ticket+",url="+ URLDecoder.decode(url,"UTF-8"));
+        logger.warn("username="+username+",ticket="+ticket+",url="+ URLDecoder.decode(url,"UTF-8"));
         if (null == username) {
             if (null != ticket && !"".equals(ticket)) {
                 PostMethod postMethod = new PostMethod("http://localhost:8081/sso/ticket");
@@ -49,22 +51,26 @@ public class SSOClientFilter implements Filter{
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-                logger.info("username="+username);
+                logger.warn("username="+username);
                 if (null != username && !"".equals(username)) {
                     session.setAttribute("username", username);
-                    logger.info("doFilter...");
+                    logger.warn("SSOClientFilter before doFilter");
                     filterChain.doFilter(request, response);
+                    logger.warn("SSOClientFilter after doFilter");
                 } else {
-                    logger.info("url="+URLDecoder.decode(url,"UTF-8"));
-                    response.sendRedirect("http://localhost:8081/sso/index.jsp?service=" + url);
+                    logger.warn("url="+URLDecoder.decode(url,"UTF-8"));
+                    response.sendRedirect("http://localhost:8081/sso/index.jsp?service=" + url+"&time="+new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS").format(new Date()));
+                    logger.warn("after -- 跳转url="+new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS").format(new Date()));
                 }
             } else {
-                logger.info("url="+URLDecoder.decode(url,"UTF-8"));
-                response.sendRedirect("http://localhost:8081/sso/index.jsp?service=" + url);
+                logger.warn("url="+URLDecoder.decode(url,"UTF-8"));
+                response.sendRedirect("http://localhost:8081/sso/index.jsp?service=" + url+"&time="+new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS").format(new Date()));
+                logger.warn("after 跳转url="+new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS").format(new Date()));
             }
         } else {
-            logger.info("doFilter");
+            logger.warn("SSOClientFilter before doFilter");
             filterChain.doFilter(request, response);
+            logger.warn("SSOClientFilter after doFilter");
         }
 		
 	}

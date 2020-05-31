@@ -4,6 +4,7 @@
 <html>
 <%
 String service = request.getParameter("service");
+String time = request.getParameter("time");
 %>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -13,7 +14,7 @@ String service = request.getParameter("service");
   <form action="/sso/user/login" method="post">
   userName: <input type="text" name="username"/> <br>
   password: <input type="text" name="password"/> <br>
-  service: <input type="text" name="service" value="<%=service%>"/> <br>
+  service: <input type="text" name="service" value="<%=service%>"/> <br> <%=time%>
   rememberMe: <input type="checkbox" value="on" name="rememberMe" >
   <input type="submit" value="submit"/>
   </form>

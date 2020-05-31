@@ -10,6 +10,6 @@
 <%
 String username = (String) request.getSession().getAttribute("username");
 %>
-<%=username %>, welcome to OA system!!!
+<%=username %>, welcome to OA system!!! <%=session.getAttribute("time")%>
 </body>
 </html>

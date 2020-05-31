@@ -1,6 +1,8 @@
 package com.gtzhou.sso.server.filter;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import javax.servlet.Filter;
 import javax.servlet.FilterChain;
@@ -27,14 +29,14 @@ public class SSOServerFilter implements Filter{
 
 	public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain)
 			throws IOException, ServletException {
+		    logger.warn("time="+new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS").format(new Date()));
 		 	HttpServletRequest request = (HttpServletRequest) servletRequest;
 	        HttpServletResponse response = (HttpServletResponse) servletResponse;
 	        String service = request.getParameter("service");
 	        String ticket = request.getParameter("ticket");
 	        Cookie[] cookies = request.getCookies();
 	        String username = "";
-			logger.info("service="+service+",ticket="+ticket);
-			logger.info("cookies="+cookies);
+			logger.warn("service="+service+",ticket="+ticket+",cookies="+cookies);
 	        if (null != cookies) {
 				logger.info("cookies="+cookies.length);
 	            for (Cookie cookie : cookies) {
@@ -44,14 +46,14 @@ public class SSOServerFilter implements Filter{
 	                }
 	            }
 	        }
-		   logger.info("service="+service+",ticket="+ticket);
+		   logger.warn("service="+service+",ticket="+ticket+",username="+username);
 	        if (null == service && null != ticket) {
-				logger.info("do doFilter");
+				logger.warn("SSOServerFilter before doFilter");
 	            filterChain.doFilter(servletRequest, servletResponse);
+				logger.warn("SSOServerFilter after doFilter");
 	            return;
 	        }
 
-			logger.info("username="+username);
 	        if (null != username && !"".equals(username)) {
 	            long time = System.currentTimeMillis();
 	            String timeString = username + time;
@@ -63,12 +65,14 @@ public class SSOServerFilter implements Filter{
 	            } else {
 	                url.append("?");
 	            }
-	            url.append("ticket=").append(timeString);
-				logger.info("url="+url);
+	            url.append("ticket=").append(timeString).append(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS").format(new Date()));
+				logger.warn("send url="+url);
 	            response.sendRedirect(url.toString());
+				logger.warn("after url="+url);
 	        } else {
-				logger.info(" doFilter");
+				logger.warn(" doFilter");
 	            filterChain.doFilter(servletRequest, servletResponse);
+				logger.warn(" doFilter");
 	        }
 		
 	}
